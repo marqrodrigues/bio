@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: font-family: 'PT Serif', serif;
+  font-size: 1.2em;
+}
+
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: 'Poiret One', cursive;
+  font-size: 5.625rem;
+  color: #D0E8F2;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #5F6F94;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #5F6F94;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 8px 0 0 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-color: #161B36;
+  width: 5%;
+}
+
+.btn {
+  border-radius: 10px;
+  background: #5F6F94;
+  color: white;
+  padding: 15px;
+  line-height: 4;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #D0E8F2;
+  line-height: 3;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #D0E8F2;
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+.top-container {
+  background-color: #161B36;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #161B36;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.moon {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  width: 10%;
+}
+
+.stars {
+  position: absolute;
+  left: 280px;
+  bottom: 320px;
+  width: 15%;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.bio {
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile-pic {
+  width: 15%;
+}
+
+.bioreactor {
+  width: 25%;
+  background-color: #BAD7E9;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming {
+  width: 25%;
+  background-color: #FEF5AC;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.umpiring {
+  width: 25%;
+  background-color: #BAD7E9;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.birdie {
+  width: 25%;
+  background-color: #FEF5AC;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.piano {
+  width: 25%;
+  background-color: #BAD7E9;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.translate {
+  width: 25%;
+  background-color: #FEF5AC;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+

@@ -1,7 +1,8 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
-  font-family: font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
   font-size: 1.2em;
 }
 
@@ -17,6 +18,7 @@ h2 {
   font-size: 2.5rem;
   color: #5F6F94;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -27,31 +29,57 @@ h3 {
 hr {
   border-style: dotted none none none;
   border-width: 8px 0 0 0;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto 100px auto;
   border-color: #161B36;
   width: 5%;
 }
 
-.btn {
-  border-radius: 10px;
-  background: #5F6F94;
-  color: white;
-  padding: 15px;
-  line-height: 4;
-  text-decoration: none;
+p {
+  line-height: 2;
 }
 
 .footer-link {
+  color: #5F6F94;
+  font-family: 'PT Serif', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
   color: #D0E8F2;
-  line-height: 3;
+}
+
+.btn {
+  background: #5F6F94;
+  background-image: -webkit-linear-gradient(top, #5F6F94, #161B36);
+  background-image: -moz-linear-gradient(top, #5F6F94, #161B36);
+  background-image: -ms-linear-gradient(top, #5F6F94, #161B36);
+  background-image: -o-linear-gradient(top, #5F6F94, #161B36);
+  background-image: linear-gradient(to bottom, #5F6F94, #161B36);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #D0E8F2;
+  background-image: -webkit-linear-gradient(top, #D0E8F2,  #5F6F94);
+  background-image: -moz-linear-gradient(top, #D0E8F2,  #5F6F94);
+  background-image: -ms-linear-gradient(top, #D0E8F2,  #5F6F94);
+  background-image: -o-linear-gradient(top, #D0E8F2,  #5F6F94);
+  background-image: linear-gradient(to bottom, #D0E8F2,  #5F6F94);
   text-decoration: none;
 }
 
 .copyright {
   color: #D0E8F2;
-  padding: 20px 0 20px 0;
-  margin: 0;
+  font-size: 0.75em;
+  padding: 20px 0;
 }
 
 .top-container {
@@ -62,14 +90,12 @@ hr {
 
 .middle-container {
   background-color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin: 100px 0 100px 0;
 }
 
 .bottom-container {
   background-color: #161B36;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 50px 0 20px;
 }
 
 .moon {
@@ -91,14 +117,19 @@ hr {
 }
 
 .bio {
-  line-height: 2;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px auto;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .profile-pic {
